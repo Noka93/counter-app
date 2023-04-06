@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>My class work</title>
+	</head>
+
+<style>
+  body, #frames{
+  margin: 0;
+  text-align: center;
+  background:burlywood;
+  animation: mymove 5s infinite;
+ }
+
+h1{
+  font-size: 170px;
+}
+
+@keyframes mymove {
+  from {background-color:#19376D;}
+  to {background-color: rgb(170, 18, 145)}
+  
+}
+
+button {
+  font-size: 80px;
+  padding: 10px;
+  margin: 30px;
+  cursor: pointer;
+  color:wheat;
+  background:#19376D;
+}
+
+button:hover{
+  color: black;
+  background-color:cadetblue;
+}
+</style>
+	<body>
+
+    <div id="frames"></div>
+		<h1>...</h1>
+		<button id="btn-decrease">-</button>
+    <button id="btn-division">/</button>
+    <button id="btn-reset">Reset</button>
+    <button id="btn-increase">+</button>
+    <button id="btn-multiplication">*</button>
+		<script src="dom.js"></script>
+	</body>
+</html
